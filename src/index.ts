@@ -1,8 +1,8 @@
-import { TelegramClientInterface } from "./client";
+import { TelegramClientInterface } from './client';
 
 const telegramPlugin = {
-    name: "telegram",
-    description: "Telegram client plugin",
-    clients: [TelegramClientInterface],
+  name: 'telegram',
+  description: 'Telegram client plugin',
+  clients: [TelegramClientInterface],
 };
 export default telegramPlugin;

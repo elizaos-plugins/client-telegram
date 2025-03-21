@@ -1,7 +1,7 @@
-import { messageCompletionFooter, shouldRespondFooter } from "@elizaos/core";
+import { messageCompletionFooter, shouldRespondFooter } from '@elizaos/core';
 
 export const telegramShouldRespondTemplate =
-    `# About {{agentName}}:
+  `# About {{agentName}}:
 {{bio}}
 
 # RESPONSE EXAMPLES
@@ -72,8 +72,8 @@ The goal is to decide whether {{agentName}} should respond to the last message.
 ` + shouldRespondFooter;
 
 export const telegramMessageHandlerTemplate =
-    // {{goals}}
-    `# Action Examples
+  // {{goals}}
+  `# Action Examples
 {{actionExamples}}
 (Action examples are for reference only. Do not use the information from them in your response.)
 
@@ -105,7 +105,7 @@ Note that {{agentName}} is capable of reading/seeing/hearing various forms of me
 ` + messageCompletionFooter;
 
 export const telegramAutoPostTemplate =
-    `# Action Examples
+  `# Action Examples
 NONE: Respond but perform no additional action. This is the default if the agent is speaking and not doing anything additional.
 
 # Task: Generate an engaging community message as {{agentName}}.
@@ -143,7 +143,7 @@ Examples of {{agentName}}'s dialog and actions:
 ` + messageCompletionFooter;
 
 export const telegramPinnedMessageTemplate =
-    `# Action Examples
+  `# Action Examples
 NONE: Respond but perform no additional action. This is the default if the agent is speaking and not doing anything additional.
 
 # Task: Generate pinned message highlight as {{agentName}}.
