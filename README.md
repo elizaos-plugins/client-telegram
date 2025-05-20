@@ -1,3 +1,8 @@
+## ⚠️ THIS REPOSITORY HAS MOVED ⚠️
+
+**This package has been relocated to [elizaos-plugins/plugin-telegram](https://github.com/elizaos-plugins/plugin-telegram).**  
+We have dropped the `client-` prefix and now use just `plugin-` for all types of packages. This serves as backwards compat repo for v0 Eliza installs only. Future dev is done on 0.x and 1.x branches on new repo.
+
 # Telegram Client Plugin for ElizaOS
 
 This plugin integrates a Telegram client with ElizaOS, allowing characters in ElizaOS to interact via Telegram. It provides an easy setup for starting the Telegram client using the provided bot token and includes basic lifecycle management.
